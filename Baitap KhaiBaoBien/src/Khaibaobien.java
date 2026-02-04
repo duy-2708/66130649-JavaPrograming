@@ -10,7 +10,7 @@ public class Khaibaobien {
 		double tong = a+b ;
 		double thuong  = 1.0*(a / b );
 		
-		System.out.println("Tong  " + tong);
+		System.out.println("Tong:  " + tong);
 		System.out.print("Thuong la : " + thuong + "\n");
 	}
 
