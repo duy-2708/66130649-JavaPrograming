@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Arrays;
 public class Quan_Li {
 
 
@@ -11,7 +12,7 @@ public class Quan_Li {
 		double [] diemSinhVien = new double[n];
 		nhap(sc,tenSinhVien,diemSinhVien,n);
 		xuat(tenSinhVien,diemSinhVien,n);
-		
+		Stream_API(diemSinhVien,n);
 	}
 	private static void nhap(Scanner sc,String[] tenSinhVien ,double diemSinhVien [] ,int n) {
 		System.out.println("Nhap so luong hoc sinh ten va diem ");
@@ -29,5 +30,16 @@ public class Quan_Li {
 		for(int i = 0 ; i < n ; i++ ) {
 			System.out.printf("Ten: %s , Diem: %.2f\n ",tenSinhVien[i],diemSinhVien[i]);
 		}
+	}
+	private static void Stream_API(double diemSinhVien[],int n) {
+		double diemcaonhat = Arrays.stream(diemSinhVien).max().getAsDouble();
+		System.out.printf("Diem cao nhat cua  %d sinh vien la %.2f \n",n,diemcaonhat);
+		double diemthapnhat = Arrays.stream(diemSinhVien).min().getAsDouble();
+		System.out.printf("Diem thap nhat cua  %d sinh vien la %.2f \n",n,diemthapnhat);
+		double diemtrungbinh = Arrays.stream(diemSinhVien).average().getAsDouble();
+		System.out.printf("Diem trung binh  cua %d sinh vien la %.2f \n ",n,diemtrungbinh);
+		
+		
+		
 	}
 }
