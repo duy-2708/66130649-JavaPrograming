@@ -42,7 +42,7 @@ public class NhanVien {
 		String s ;
 		if(tinhLuong() >= 20000000 ) {
 			s =  maNV +" La Xuat sac " ;
-		}else if(tinhLuong() <= 15000000) {
+		}else if(tinhLuong() >= 15000000) {
 			s = maNV+" La Gioi " ;
 		}else {
 			s= maNV +" La Kha" ;
