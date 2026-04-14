@@ -2,10 +2,11 @@ import java.util.Scanner;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 public class Doc_Van_Ban {
 	private static final String TEN_FILE = "vanban.txt";
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		InputStreamReader reader = new InputStreamReader(System.in);
 		doc_file();
 	}
 	private static void doc_file() {
