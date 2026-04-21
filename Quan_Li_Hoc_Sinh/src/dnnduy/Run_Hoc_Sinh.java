@@ -61,8 +61,6 @@ public class Run_Hoc_Sinh {
 		for(var hs : ds) {
 			hs.hienthithongtin();
 		}
-		
-		
 	}
 
 }
