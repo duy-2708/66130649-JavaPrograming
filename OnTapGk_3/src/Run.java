@@ -31,25 +31,23 @@ public class Run {
 				diem.hienThiThongTin();
 			}		
 		}
-//		System.out.println("Xoa 1 hoc sinh ");
-//		String ten = sc.nextLine();
-//		for(int i= 0 ; i <ds.size();i++) {
-//			if(ds.get(i).getHoTen().equalsIgnoreCase("ten")) {
-//				ds.remove(ds.get(i));
-//			}
-//		}
-
-//		for(int i = 0 ; i<ds.size()-1;//		System.out.println("Sap xep tang dan theo chieu cao ");i++) {
-//			for(int j = i+1 ; j<ds.size();j++) {
-//				if(ds.get(i).getDiemMonChuyen() > ds.get(j).getDiemMonChuyen()) {
-//					HocSinhChuyen tam = ds.get(i);
-//					ds.set(i, ds	.get(j));
-//					ds.set(j, tam);
-//					
-//					
-//				}
-//			}
-//		}
+		System.out.println("Xoa 1 hoc sinh ");
+		String ten = sc.nextLine();
+		for(int i= 0 ; i <ds.size();i++) {
+			if(ds.get(i).getHoTen().equalsIgnoreCase("ten")) {
+				ds.remove(ds.get(i));
+			}
+		}
+		System.out.println("Sap xep tang dan theo chieu cao ");
+		for(int i = 0 ; i<ds.size()-1;i++) {
+			for(int j = i+1 ; j<ds.size();j++) {
+				if(ds.get(i).getDiemMonChuyen() > ds.get(j).getDiemMonChuyen()) {
+					HocSinhChuyen tam = ds.get(i);
+				ds.set(i, ds	.get(j));
+					ds.set(j, tam);
+					
+				}
+	}
 		ds.sort((h1, h2) -> Double.compare(h1.getDiemMonChuyen(), h2.getDiemMonChuyen()));
 		for(var x: ds) {
 			x.hienThiThongTin();
@@ -57,4 +55,5 @@ public class Run {
 		
 	}
 
+	}
 }
