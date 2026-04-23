@@ -34,5 +34,6 @@ public class SanPham {
 		System.out.println("Ten SP: "+tenSP );
 		System.out.println("Loai SP: "+loaiSP );
 		System.out.println("Gia SP: "+giaSP);
+		System.out.println("---------------------");
 	}
 }
