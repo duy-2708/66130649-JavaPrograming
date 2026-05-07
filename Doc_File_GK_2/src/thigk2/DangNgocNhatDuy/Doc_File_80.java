@@ -12,6 +12,7 @@ public class Doc_File_80 {
 	public static void main(String[] args) {
 		doc_file();
 		
+		
 	}
 	private static void doc_file() {
 		try (BufferedReader reader = new BufferedReader(new FileReader(TEN_FILE))){
