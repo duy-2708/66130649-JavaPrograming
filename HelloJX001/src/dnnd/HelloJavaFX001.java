@@ -25,6 +25,5 @@ public class HelloJavaFX001 extends Application{
 		launch(args);
 	}
 
-	
 
 }
