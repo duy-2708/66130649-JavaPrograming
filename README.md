@@ -38,5 +38,5 @@
 <p align="center">
   <img src="./IMG_Java/Screenshot 2026-05-31 141339.png" width="300" alt="Giao diện chính">
   <img src="./IMG_Java/Screenshot 2026-05-31 141408.png" width="300" alt="Thông báo lỗi">
-  <img src="./IMG_Java" width="300" alt="Thông báo lỗi">
+  <img src="./IMG_Java/Screenshot 2026-05-31 141420.png" width="300" alt="Thông báo lỗi">
 </p>
