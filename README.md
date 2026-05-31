@@ -40,3 +40,34 @@
   <img src="./IMG_Java/Screenshot 2026-05-31 141408.png" width="300" alt="Thông báo lỗi">
   <img src="./IMG_Java/Screenshot 2026-05-31 141420.png" width="300" alt="Thông báo lỗi">
 </p>
+## 🎮 Hướng Dẫn Sử Dụng & Cách Chơi (Game Caro 3x3)
+
+Trò chơi vận hành trực quan dành cho hai người chơi đối kháng trực tiếp trên cùng một máy tính. Quá trình tương tác và sử dụng ứng dụng diễn ra tuần tự theo các bước sau:
+
+### Bước 1: Khởi động ván đấu & Nhận diện lượt đi
+* Ngay khi ứng dụng được kích hoạt, một bàn cờ trống kích thước 3x3 vuông vức sẽ hiện ra ở chính giữa màn hình.
+* Trên cùng thanh trạng thái (`Top` của khuôn BorderPane) sẽ hiển thị dòng chữ thông báo mặc định: **"Lượt của: X"**. Theo luật chơi, quân **X** luôn là bên được quyền khai cuộc đi trước.
+
+### Bước 2: Thao tác đặt quân (Đánh cờ)
+* Người chơi di chuyển con trỏ chuột và click vào bất kỳ ô vuông trống nào trên bàn cờ để hạ quân.
+* **Hiệu ứng phản hồi trực quan từ giao diện:**
+  * Nếu đang là lượt của **X**: Ô được chọn sẽ xuất hiện chữ **X màu đỏ**, đồng thời thanh thông báo phía trên lập tức đổi thành *"Lượt của: O"*.
+  * Nếu đang là lượt của **O**: Ô được chọn sẽ xuất hiện chữ **O màu xanh dương**, đồng thời thanh thông báo lập tức đổi về *"Lượt của: X"*.
+
+### Bước 3: Luật chơi an toàn (Chống thao tác sai)
+* **Chống đánh đè:** Hệ thống tích hợp bộ lọc chặn dữ liệu ngầm. Khi một ô đã được đánh (đã chứa X hoặc O), việc người chơi cố tình click lại vào ô đó sẽ bị bỏ qua hoàn toàn, không thể ghi đè quân cờ khác lên.
+* **Đóng băng bàn cờ:** Khi trận đấu đã phân định kết quả (Thắng/Thua/Hòa), toàn bộ 9 ô cờ sẽ tự động rơi vào trạng thái khóa, người chơi không thể bấm thêm bất kỳ nước đi nào khác nhằm giữ nguyên hiện trạng bảng đấu.
+
+### Bước 4: Nhận diện kết quả trận đấu
+* Hệ thống tự động quét ma trận sau mỗi click chuột. Khi một trong hai người chơi xếp đủ 3 quân cờ của mình thành một đường thẳng hàng (áp dụng cho cả hàng ngang, cột dọc, đường chéo chính hoặc đường chéo phụ):
+  * Dòng thông báo trên cùng sẽ chuyển sang **Màu xanh lá** chói hiển thị: **"X CHIẾN THẮNG!"** hoặc **"O CHIẾN THẮNG!"**.
+* Trong trường hợp toàn bộ 9 ô cờ đã bị lấp đầy nhưng không có bất kỳ ai tạo được đường 3 ô thẳng hàng, thanh trạng thái sẽ chuyển sang **Màu cam** thông báo: **"TRẬN NÀY HÒA!"**.
+
+### Bước 5: Khởi tạo ván mới (Reset)
+* Khi muốn kết thúc ván cũ để bắt đầu một hiệp đấu mới, người chơi click vào nút **"Chơi Lại"** nằm chễm chệ ở góc dưới cùng (`Bottom` của BorderPane).
+* Ngay lập tức, toàn bộ dữ liệu cũ sẽ được quét sạch, các ô cờ trở về trạng thái trống rỗng, dòng thông báo trả lại chữ màu đen mặc định và quyền đi trước được thiết lập lại cho lượt của X.
+<p align="center">
+  <img src="./IMG_Java/Screenshot 2026-05-31 141819.png" width="300" alt="Giao diện chính">
+  <img src="./IMG_Java/Screenshot 2026-05-31 141838.png" width="300" alt="Thông báo lỗi">
+  <img src="./IMG_Java/Screenshot 2026-05-31 141901.png" width="300" alt="Thông báo lỗi">
+</p>
