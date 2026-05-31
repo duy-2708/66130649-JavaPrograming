@@ -35,3 +35,8 @@
 * Kết quả chỉ số BMI sau khi tính xong sẽ được đưa vào cấu trúc rẽ nhánh `if-else` để phân loại thể trạng (Gầy, Cân đối, Béo).
 * Tùy thuộc vào kết quả, hệ thống tiến hành cập nhật trực tiếp lên dòng chữ kết quả hiển thị trên giao diện, đồng thời đổi màu sắc chữ (`Color.BLUE`, `Color.GREEN`, `Color.RED`) để người dùng dễ dàng nhận biết trạng thái sức khỏe bằng thị giác.
 * Khi nhấn nút **"Xóa"**, một sự kiện Lambda khác sẽ làm sạch (`.clear()`) các ô dữ liệu cũ, đưa ứng dụng về trạng thái sẵn sàng cho lượt tính tiếp theo.
+< align="center">
+  <img src="./IMG_Java/Screenshot 2026-05-31 141339.png" width="300" alt="Giao diện chính">
+  <img src="./IMG_Java/Screenshot 2026-05-31 141408.png" width="300" alt="Thông báo lỗi">
+  <img src="./IMG_Java/Screenshot 2026-05-31 141420.png" width="300" alt="Thông báo lỗi">
+</p>
