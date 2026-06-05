@@ -1,0 +1,10 @@
+CT01 ;   Zheng Yubo  ; 1990 ;Trung Quoc ; 98.5
+CT02 ;Zhang Taiyi; 1995;   Trung Quoc; 95.0
+CT03 ; Nguyen Van A;2006 ; Viet Nam ; 85.5
+CT04 ;Gareth Potts;  1983; Anh; 92.0
+CT05 ; Chu Bingjie ; 1988 ;trung quoc ; 89.5CT01--Zheng Yubo--98.5
+CT02--Zhang Taiyi--95.0
+CT04--Gareth Potts--92.0
+CT01--Zheng Yubo--98.5
+CT02--Zhang Taiyi--95.0
+CT04--Gareth Potts--92.0

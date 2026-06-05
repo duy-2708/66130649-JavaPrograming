@@ -1,0 +1,6 @@
+VP01 ;  AWM Sniper ; Vu Khi;  5
+VP02 ;Mu Spetsnaz ; Giap; 3
+VP03; Groza ;  vu khi;  5
+VP04; Med Kit; Hoi phuc  ; 2
+VP05 ;M249 ;  VU KHI ; 5
+27-Trai-100-

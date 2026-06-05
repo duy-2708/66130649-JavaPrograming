@@ -5,9 +5,9 @@ public class Run_San_Pham {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		ArrayList<SanPham> ds = new ArrayList();
-		ArrayList<SanPham> ds2 = new ArrayList();
-		int n = 1 ;
+		ArrayList<SanPham> ds = new ArrayList<>();
+		ArrayList<SanPham> ds2 = new ArrayList<>();
+		int n = 3 ;
 		for( int i = 0 ; i< n ; i++) {
 			SanPham spi = new SanPham();
 			System.out.println("Nhap maSP: ");

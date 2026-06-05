@@ -1,0 +1,9 @@
+LK01 ;  Chuot Gaming G102 ; Logitech ; 450.0
+LK02;Ban Phim Co K70;   Corsair; 3200.0
+LK03 ; Tai nghe Cloud II ; Kingston; 1800.0
+LK04 ;Chuot Khong Day M331; logitech ;   350.0
+
+LK01 || Chuot Gaming G102 || 450.0
+LK02 || Ban Phim Co K70 || 3200.0
+LK03 || Tai nghe Cloud II || 1800.0
+LK04 || Chuot Khong Day M331 || 350.0
